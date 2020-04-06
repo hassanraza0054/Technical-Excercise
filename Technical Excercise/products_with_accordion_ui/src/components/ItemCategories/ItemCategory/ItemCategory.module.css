@@ -1,0 +1,37 @@
+.category .underline {
+  display: inline-block;
+  position: relative;
+  color: white;
+  transition: 500ms;
+  border-bottom: 1px solid transparent;
+}
+
+.categorySelected .underline {
+  display: inline-block;
+  position: relative;
+  color: white;
+  transition: 500ms;
+  border-bottom: 1px solid transparent;
+  border-color: palegoldenrod;
+}
+
+.categorySelected:hover .underline {
+  display: inline-block;
+  position: relative;
+  border-color: palegoldenrod;
+}
+
+.category:hover .underline {
+  display: inline-block;
+  position: relative;
+  border-color: palegoldenrod;
+}
+
+.number {
+  position: absolute;
+  font-size: 12px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  color: #fff;
+  transition: 300ms;
+}

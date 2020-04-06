@@ -1,0 +1,13 @@
+.description {
+  padding: 0.5rem 0 2rem 0rem;
+  font-size: 0.9rem;
+  color: rgba(211, 211, 211, 0.5);
+}
+
+.imgDiv {
+  text-align: center;
+}
+
+img {
+  max-height: 30px;
+}

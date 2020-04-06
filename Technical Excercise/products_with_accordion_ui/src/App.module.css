@@ -1,0 +1,6 @@
+.App {
+  display: flex;
+  overflow-y: hidden;
+  flex-direction: column;
+  font-family: "Roboto";
+}

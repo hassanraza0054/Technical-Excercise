@@ -1,0 +1,17 @@
+.items {
+  height: inherit;
+  overflow-y: auto;
+  animation: showItems 0.5s ease-in;
+}
+
+@keyframes showItems {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}

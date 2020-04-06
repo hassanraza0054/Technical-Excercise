@@ -1,0 +1,17 @@
+.groups {
+  height: inherit;
+  overflow: auto;
+  animation: showGroups 0.5s ease-in;
+}
+
+@keyframes showGroups {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,34 @@
+.card .underline {
+  color: white;
+  transition: 500ms;
+  border-bottom: 1px solid transparent;
+}
+
+.cardSelected .underline {
+  color: white;
+  transition: 500ms;
+  border-bottom: 1px solid transparent;
+  border-color: palegoldenrod;
+}
+
+.cardSelected:hover .underline {
+  border-color: palegoldenrod;
+}
+
+.card:hover .underline {
+  border-color: palegoldenrod;
+}
+
+.description {
+  padding: 0.5rem 0 2rem 0rem;
+  font-size: 0.9rem;
+  color: rgba(211, 211, 211, 0.5);
+}
+
+.imgDiv {
+  text-align: center;
+}
+
+img {
+  max-height: 30px;
+}
